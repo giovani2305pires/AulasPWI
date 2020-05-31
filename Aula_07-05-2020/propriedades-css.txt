@@ -1,0 +1,33 @@
+-> Para texto:
+color: define a cor da fonte
+font-size: aumenta as palavras da fonte
+font-weight: especifica a densidade da fonte
+font-family: define qual família de fonte você irá usar
+text-align: define como o texto será alinhado
+text-decoration: retira as "linhas" dos links da fonte
+line-height: altera os espaços da linha de um texto
+font-style: define a escolha da fonte em: normal, itálico ou oblíquo
+
+-> layout:
+background: fundo de uma página
+margin: margem externa de um elemento de um texto
+padding: margem interna de um elemento de um texto
+position: não entendi, mas o significado dela é: define como um elemento é posicionado em um documento.
+display: não entendi, mas o significado dela é: especifica o tipo de caixa de renderização usada por um elemento.
+top: posiciona o elemento de um texto na parte superior da página
+bottom: posiciona o elemento de um texto na parte inferior da página
+left: posiciona o elemento de um texto na parte esquerda da página
+right: posiciona o elemento de um texto na parte direita da página
+height: não entendi muito bem, mas essa tag determina a altura da área do conteúdo de um elemento
+width: não entendi muito bem, mas essa tag determina a largura da área do conteúdo de um elemento
+float: não entendi
+border: não entendi muito bem, mas o border ajusta os valores de propriedades individuais da borda em um único elemento na página
+
+-> listas:
+list-style: não entendi muito bem, mas é uma propriedade usada para configurar list-style-type, list-style-image e list-style-position.
+
+-> unidades
+px -> pixels
+pt -> pontos
+% -> porcentagem
+em -> tamanho padrão
