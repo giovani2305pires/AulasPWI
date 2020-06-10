@@ -10,60 +10,115 @@
             margin: 0;
             padding: 0;
         }
-        a {
+
+        body{
+            width: 100%;
+            height: 100%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12px;
+            background-color: #8b827d;
+        }
+
+        a{
             text-decoration: none;
-            color: #00ff00;
         }
 
-        h1{
+        header{
+            position: sticky;
+            top: 0;
+        }
+
+        .topo{
+            background-color: #ffffff;
+            height: 80px;
             text-align: center;
-            margin-bottom: 50px;
-            margin-top: 30px;
-            background-color: #000000;
-            margin-left: 100px;
-            margin-right: 100px; 
-
-            padding: 50px;
-
-            color: #000000;
-
         }
 
-        #titulo-da-pagina{
-            background-color: #00ff00;
+        .logo{
+            width: 150px;
+            padding: 5px;
+            float: left;
         }
 
-        .negrito-verde{
-            color: #000000;
-            font-weight: bold;
+        #img-logo{
+            width: 45%;
+            height: auto;
+        }
+
+        .nome-pagina{
+            display: inline-block;
+            margin: 25px auto;
             font-size: 30px;
-            background-color: #00ff00;
-            margin-right: 1275px;
-            
+            color: saddlebrown;
         }
 
-        .margem-esquerda-50{
-            margin-left: 50px;
+        .barra-topo{
+            background-color: saddlebrown;
+            height: 20px;
         }
 
-        .margem-50{
-            margin: 50px;
+        .card{
+            margin-top: 15px;
+            background-color: #ffffff;
+            padding: 25px;
+            border-radius: 10px;
+
+            margin-left: 100px;
+            margin-right: 100px;
+        }
+
+        .centro-card{
+            text-align: center;
+            font-size: 20px;
+            font-weight: bold;
+            color: #ff0000;
+        }
+
+        #cor-link{
+            color: #0000ff;
+            font-size: 20px;
+            list-style: none;
+        }
+
+        #color-link{
+            color: #0000ff;
+            font-size: 20px;
+            list-style: none;
+        }
+
+        #atividade-tags{
+            font-size: 20px;
+            color: #0000ff;
         }
     </style>
         
-    <body style="background-color: #000000;">
- 
-        <h1 id="titulo-da-pagina" style="" class="">MINHAS RECEITAS</h1>
- 
-        <p class="negrito-verde margem-esquerda-50">Escolha uma opção:</p>
-        <ul class="margem-esquerda-50 margem-50">
-            <a href="receitas_doces/index.html"><li>Receitas Doces</li></a>
-            <a href="receitas_salgadas/index.html"><li>Receitas Salgadas</li></a>
+<body>
+    <header>
+        <div class="topo">
+            <div class="logo">
+                <img id="img-logo" src="img/logo.png" alt="logo da pagina">
+            </div>
+            <h1 class="nome-pagina">MINHAS RECEITAS</h1>
+        </div>
+        <div class="barra-topo"></div>
+    </header>    
+
+    <div class="card">
+        <p class="centro-card">ESCOLHA UMA OPÇÃO:</p>
+        <ul>
+            <a id="cor-link" href="receitas_doces/index.html"><li>Receitas Doces</li></a>
+            <a id="color-link" href="receitas_salgadas/index.html"><li>Receitas Salgadas</li></a>
         </ul>
- 
-        <a href="tags_html/index.html">Ir para Atividade das TAGS</a>
- 
+    </div>    
+
+    <div class="card">
         <img src="img/animacao.gif" alt="Cozinheiro Pato Donald.">
- 
-    </body>
+    </div> 
+
+    <div class="card">  
+        <a id="atividade-tags" href="tags_html/index.html">Ir para Atividade das TAGS</a>
+    </div> 
+
+</body>
+
 </html>
