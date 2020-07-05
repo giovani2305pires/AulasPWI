@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Desenvolvedor</title>
+
+        <style>
+            *{
+            margin: 0;
+            padding: 0;
+        }
+
+        body{
+            width: 100%;
+            height: 100%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12px;
+            background-color: #8b827d;
+        }
+
+        a{
+            text-decoration: none;
+        }
+
+        header{
+            position: sticky;
+            top: 0;
+        }
+
+        .topo{
+            background-color: #ffffff;
+            height: 80px;
+            text-align: center;
+        }
+
+        .logo{
+            width: 150px;
+            padding: 5px;
+            float: left;
+        }
+
+        #img-logo{
+            width: 45%;
+            height: auto;
+        }
+
+        .nome-pagina{
+            display: inline-block;
+            margin: 25px auto;
+            font-size: 30px;
+            color: saddlebrown;
+        }
+
+        .barra-topo{
+            background-color: saddlebrown;
+            height: 20px;
+        }
+
+        .card{
+            margin-top: 15px;
+            background-color: #ffffff;
+            padding: 25px;
+            border-radius: 10px;
+
+            /*
+            margin-left: 100px;
+            margin-right: 100px;
+            */
+        }
+
+        .centro-card{
+            text-align: center;
+            font-size: 12px;
+            font-weight: bold;
+        }
+
+        #cor-link{
+            color: #0000ff;
+            font-size: 20px;
+            list-style: none;
+        }
+
+        #color-link{
+            color: #0000ff;
+            font-size: 20px;
+            list-style: none;
+        }
+
+        #atividade-tags{
+            font-size: 20px;
+            color: #0000ff;
+        }
+
+        .container{
+            max-width: 960px;
+            padding-right: 15px;
+            padding-left: 15px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .titulo-site{
+            color: #ff0000;
+        }
+
+        .barra{
+            height: 100px;
+            background-color: saddlebrown;
+            width: 100%;
+            position: static;
+            top: 0;
+
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+
+        .foto{
+            position: absolute;
+            width: 150px;
+            padding: 20px;
+        }
+
+        .foto img{
+            width: 160%;
+            border-radius: 50%;
+        }
+
+        .nome-desenvolvedor{
+            padding: 30px;
+            margin-left: 280px;
+        }
+
+        .nome-desenvolvedor h1{
+            font-size: 35px;
+            color: #ffffff;
+        }
+
+        .dados-desenvolvedor{
+            margin-top: 100px;
+            padding: 20px;
+
+            border-left: 10px solid #ff0000;
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+        }
+
+        .dados-tabela{
+            padding: 10px;
+            padding-bottom: 15px;
+        }
+
+        .dados-tabela a{
+            text-decoration: none;
+            color: saddlebrown;
+            font-size: 20px;
+        }
+
+        .dados-tabela h2{
+            color: saddlebrown;
+        }
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="topo">
+                <div class="container">
+                <div class="logo">
+                    <img id="img-logo" src="img/logo.png" alt="logo da pagina">
+                </div>
+                <h1 class="nome-pagina">MINHAS RECEITAS</h1>
+            </div>
+            </div>
+            <div class="barra-topo"></div>
+        
+
+        </header>  
+        
+        <div class="container">
+
+            <div class="card centro-card">
+                <h1 class="titulo-site">SOBRE O DESENVOLVEDOR</h1>
+            </div>
+
+            <div class="card">
+
+                <div class="barra">
+                    <div class="foto">
+                        <img src="img/foto_desenvolvedor.jpg" alt="Foto do Desenvolvedor">
+                    </div>
+                    <div class="nome-desenvolvedor">
+                        <h1>Giovani Nogueira Pires</h1>
+                    </div>
+                </div>
+
+                <div class="dados-desenvolvedor">
+
+                    <table>
+                        <tr>
+                            <td>
+                                <img src="img/email.png" />
+                            </td>
+                            <td class="dados-tabela">
+                                <a href="mailto:giovani.pires3@etec.sp.gov.br">giovani.pires3@etec.sp.gov.br</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="img/github.png" />
+                            </td>
+                            <td class="dados-tabela">
+                                <a href="https://github.com/giovani2305pires" target="_blank">https://github.com/giovani2305pires</a>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <img src="img/desktop.png" />
+                            </td>    
+                            <td class="dados-tabela"><h2>Técnico em Desenvolvimento de Sistemas Integrado ao Ensino Médio</td></h2>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <img src="img/home.png" />
+                            </td>
+                            <td class="dados-tabela"><h2>Lençóis Paulista-SP</td></h2>
+                        </tr>
+                    </table>
+                </div>
+
+            </div>
+
+        </div>
+
+    </body>
+</html>
