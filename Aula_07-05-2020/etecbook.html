@@ -15,7 +15,7 @@
             height: 100%;
             font-family: Arial, Helvetica, sans-serif;
             font-size: 12px;
-            background-color: #8b827d;
+            background-color: saddlebrown;
         }
 
         header{
@@ -60,6 +60,103 @@
             font-size: 35px;
             color: #ffffff;
         }
+
+        .menu {
+            padding: 0px;
+            margin: 0px;
+            background-color: #ffffff;
+            list-style: none;
+        }
+ 
+        .menu ul li {
+            display: inline;
+        }
+ 
+        .menu ul li a {
+            padding: 15px 100px;
+            display: inline-block;
+ 
+            background-color: #ffffff;
+            color: #000000;
+            text-decoration: none;
+            border-bottom: 3px solid #ffffff;
+ 
+            margin-left: 75px;
+            margin-right: 75px;
+        }
+ 
+        .menu ul li a:hover {
+            background-color: #D6D6D6;
+            color: #000000;
+            border-bottom: 3px solid #1eaca1;
+ 
+        }
+ 
+        .meu_nome {
+            padding: 20px;
+            margin-left: 540px;
+ 
+        }
+ 
+        .meu_nome h1 {
+            font-size: 25px;
+            padding: 5px;
+            margin: 5px;
+        }
+
+        .card-2{
+            margin-top: 20px;
+            background-color: #ffffff;
+
+            padding: 10px;
+            padding-bottom: 25px;
+            border-radius: 15px;
+
+            margin-left: 150px;
+            margin-right: 800px;
+        }
+
+        .card-3{
+            background-color: #ffffff;
+            text-align: left;
+
+            padding: 10px;
+            padding-top: 30px;
+            padding-right: 725px;
+            padding-bottom: 50px;
+            padding-left: 30px;
+
+            border-radius: 15px;
+
+            margin-top: -13%;
+            margin-left: 820px;
+            margin-right: 50px;
+        }
+
+        .card-4{
+            margin-top: 1%;
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 15px;
+            margin-right: 25px;
+            margin-left: 820px;
+            padding-bottom: 20px;
+        }
+
+        .mensagem{
+            text-align: center;
+        }
+
+        .curtir{
+            margin-left: 100px;
+        }
+
+        .comentario{
+            margin-left: 500px;
+            margin-top: -3%
+        }      
+
+        
         </style>
     </head>
 
@@ -77,6 +174,70 @@
                 <h1>Giovani Nogueira Pires</h1>
             </div>
 
+            <div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="#">Linha do Tempo</a></li>
+                        <li><a href="#">Sobre</a></li>
+                        <li><a href="#">Amigos</a></li>
+                        <li><a href="#">Fotos</a></li>
+                    </ul>
+                </div>
+
+                <div class="card-2">
+                    <h1>Apresentação:</h1>
+                <br/><br/>
+                    <table>
+                        <tr>
+                            <td>
+                                <img src="img/email.png" />
+                            </td>
+                            <td class="dados-tabela">
+                                <a href="mailto:giovani.pires3@etec.sp.gov.br">giovani.pires3@etec.sp.gov.br</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="img/github.png" />
+                            </td>
+                            <td class="dados-tabela">
+                                <a href="https://github.com/giovani2305pires" target="_blank">https://github.com/giovani2305pires</a>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <img src="img/desktop.png" />
+                            </td>    
+                            <td class="dados-tabela"><h2>Técnico em Desenvolvimento de Sistemas Integrado ao Ensino Médio</td></h2>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <img src="img/home.png" />
+                            </td>
+                            <td class="dados-tabela"><h2>Lençóis Paulista-SP</td></h2>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <div class="card-3">
+                <h1>Publicações</h1>
+            </div>
+
+            <div class="card-4">
+                <h2>Giovani Nogueira Pires</h2>
+                <p>14/07 às 17:40</p>
+                <br/>
+                <div class="mensagem"><p>Sejam bem-vindos à minha página.</p></div>
+                <div>
+                    <br/><br/>
+                    <p class="curtir"><img src="img/like.png" />Curtir</p>
+                    <p class="comentario"><img src="img/comment.png" />Comentar</p>
+                </div>
+            </div>
+        
         </header>
     
     </body>    
