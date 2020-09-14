@@ -1,0 +1,40 @@
+.capa {
+    height: 300px;
+    background: url('../img/capa.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+
+.img-perfil {
+    width: 170px;
+    margin-top: -75px;
+    border-radius: 50%;
+}
+
+.margin-link {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+body {
+    background-color: #0abde3;
+}
+
+.nav-link {
+    font-weight: bold;
+}
+
+.img-feed {
+    border-radius: 50%;
+    width: 40px;
+}
+
+.data-feed {
+    font-size: 12px;
+}
+
+.actions {
+    font-weight: bold;
+    font-size: 18px;
+}
