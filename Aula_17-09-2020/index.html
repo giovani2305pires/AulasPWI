@@ -56,13 +56,25 @@
         </a>
       </div>
 
+      <button type="button" id="cor1" class="btn btn-primary">Primary</button>
+      <button type="button" id="cor2" class="btn btn-secondary">Secondary</button>
+      <button type="button" id="cor3" class="btn btn-success">Success</button>
+      <button type="button" id="cor4" class="btn btn-info">Info</button>
+      <button type="button" id="cor5" class="btn btn-warning">Warning</button>
+      <button type="button" id="cor6" class="btn btn-danger">Danger</button>
+      <button type="button" id="cor7" class="btn btn-light">Light</button>
+      <button type="button" id="cor8" class="btn btn-dark">Dark</button>
+
+      <button type="button" id="button">ESCONDER</button>
+      <button type="button" id="button2">APARECER</button>
+
     <div class="container">    
         <div class="alert alert-primary text-center" role="alert">
             Filmes
         </div>
     </div>    
 
-      <div class="container"><div class="container">
+      <div id="filme" class="container"><div class="container">
         <div class="row">
           <div class="col-sm">
             <div class="card" style="width: 18rem;">
@@ -96,8 +108,11 @@
           </div>
         </div>
       </div>
-
+    </div>  
       <!-- FIM DOS FILMES -->
+
+      <button type="button" id="button3">ESCONDER</button>
+      <button type="button" id="button4">APARECER</button>
 
       <div class="container">    
         <div class="alert alert-dark text-center" role="alert">
@@ -105,7 +120,7 @@
         </div>
     </div>    
 
-      <div class="container"><div class="container">
+      <div id="serie" class="container"><div class="container">
         <div class="row">
           <div class="col-sm">
             <div class="card" style="width: 18rem;">
@@ -139,8 +154,11 @@
           </div>
         </div>
       </div>
-
+    </div>  
       <!-- FIM DAS SÉRIES -->
+
+      <button type="button" id="button5">ESCONDER</button>
+      <button type="button" id="button6">APARECER</button>
 
       <div class="container">    
         <div class="alert alert-danger text-center" role="alert">
@@ -148,7 +166,7 @@
         </div>
     </div>    
 
-      <div class="container"><div class="container">
+      <div id="desenho" class="container"><div class="container">
         <div class="row">
           <div class="col-sm">
             <div class="card" style="width: 18rem;">
@@ -182,8 +200,25 @@
           </div>
         </div>
       </div>
-
+    </div>  
       <!-- FIM DOS DESENHOS -->
+
+      <form>
+        <div class="form-group">
+          <label for="nome">Nome</label>
+          <input type="text" class="form-control" id="form1">
+        </div>
+        <div class="form-group">
+          <label for="email">E-mail</label>
+          <input type="email" class="form-control" id="form2">
+        </div>
+        <div class="form-group">
+          <label for="mensagem">Mensagem:</label>
+          <textarea id="form3" class="form-control"></textarea>
+        </div>
+     
+        <button type="button" id="Confirmar" class="btn btn-dark">Enviar</button>
+      </form>  
 
 
 
@@ -193,5 +228,10 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script src="js/script.js"></script>
+
   </body>
 </html>
